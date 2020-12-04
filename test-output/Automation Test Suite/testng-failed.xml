@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Test Suite]">
+  <test name="Test Suite">
+    <classes>
+      <class name="com.Test.Way2AutomatePractice"/>
+      <class name="com.Test.HomePage"/>
+    </classes>
+  </test> <!-- Test Suite -->
+  <test name="Test Suite(failed)">
+    <classes>
+      <class name="com.Test.HomePage">
+        <methods>
+          <include name="homepagetest"/>
+        </methods>
+      </class> <!-- com.Test.HomePage -->
+    </classes>
+  </test> <!-- Test Suite(failed) -->
+</suite> <!-- Failed suite [Automation Test Suite] -->
